@@ -1,0 +1,90 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #121214;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+:root {
+  --primary: #db41db;
+  --anri-accent: rgb(119, 115, 115);
+}
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  background: rgb(82, 70, 70);
+  border-radius: 8px;
+  padding: 30px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.info {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160px;
+}
+.info {
+  width: 700px;
+  background: none;
+  border: none;
+  text-align: center;
+  font-weight: 700;
+  color: var(--anri-accent);
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.info input::-webkit-outer-spin-button,
+.info input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* .info input[type="number"]{
+    -moz-appearance: textfield;
+} */
+.countdown {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.num {
+  font-family: "Roboto Mono", monospace;
+  font-size: 160px;
+  line-height: 1;
+  background: rgb(61, 54, 54);
+  padding: 40px 16px;
+  border-radius: 8px;
+}
+.dots {
+  font-family: "Roboto Mono", monospace;
+  font-size: 160px;
+  color: var(--primary);
+}
+.button {
+  background: #4fb174;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: beige;
+  gap: 10px;
+  padding: 17px;
+  width: 170px;
+  cursor: pointer;
+}
